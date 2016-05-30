@@ -1,0 +1,25 @@
+{
+  "name": "eslint-config-meyer",
+  "version": "0.0.1",
+  "description": "@meyer’s ESLint config",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "eslint",
+    "eslintrc"
+  ],
+  "author": "Mike Meyer",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meyer/eslint-config-meyer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/meyer/eslint-config-meyer/issues"
+  },
+  "homepage": "https://github.com/meyer/eslint-config-meyer#readme"
+}
