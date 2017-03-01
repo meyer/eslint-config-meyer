@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-meyer",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "@meyer’s ESLint config",
   "main": "index.js",
   "scripts": {
