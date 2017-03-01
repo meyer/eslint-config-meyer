@@ -41,6 +41,11 @@ module.exports = {
     'no-var': 1,
     'object-shorthand': 1,
     'prefer-const': 1,
+    'space-before-function-paren': ['error', {
+      anonymous: 'never',
+      named: 'never',
+      asyncArrow: 'always',
+    }],
 
     'jsx-quotes': [2, 'prefer-double'],
     'react/jsx-max-props-per-line': [2, {maximum: 3}],
