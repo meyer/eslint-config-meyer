@@ -15,7 +15,7 @@ module.exports = {
   },
 
   extends: [
-    'standard',
+    'eslint:recommended',
     'plugin:react/recommended',
   ],
 
@@ -27,9 +27,6 @@ module.exports = {
   globals: {},
 
   rules: {
-    'keyword-spacing': 2,
-    'quote-props': [2, 'consistent-as-needed'],
-    'comma-dangle': [1, 'always-multiline'],
     'no-console': [1, {
       allow: [
         'error',
@@ -41,14 +38,8 @@ module.exports = {
     'no-var': 1,
     'object-shorthand': 1,
     'prefer-const': 1,
-    'space-before-function-paren': ['error', {
-      anonymous: 'never',
-      named: 'never',
-      asyncArrow: 'always',
-    }],
 
     'jsx-quotes': [2, 'prefer-double'],
-    'react/jsx-max-props-per-line': [2, {maximum: 3}],
     'react/jsx-no-duplicate-props': 2,
     'react/jsx-no-undef': 2,
     'react/jsx-uses-react': 2,
