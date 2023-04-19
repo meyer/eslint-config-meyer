@@ -1,24 +1,31 @@
 {
   "name": "eslint-config-meyer",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "@meyer’s ESLint config",
   "main": "index.js",
-  "scripts": {
-    "start": "eslint ./test.js"
-  },
   "keywords": [
     "eslint",
-    "eslintrc",
-    "pizza"
+    "eslintrc"
   ],
   "author": "Mike Meyer",
   "license": "ISC",
+  "workspaces": [
+    "example"
+  ],
   "dependencies": {
-    "eslint-plugin-json": "^1.2.0",
-    "eslint-plugin-react": "^6.10.0"
+    "@typescript-eslint/eslint-plugin": "^5.56.0",
+    "@typescript-eslint/parser": "^5.56.0",
+    "eslint-import-resolver-typescript": "^3.5.5",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-simple-import-sort": "^10.0.0"
   },
   "devDependencies": {
-    "eslint": "^3.16.1"
+    "eslint": "^8.38.0",
+    "typescript": "^5.0.4"
+  },
+  "peerDependencies": {
+    "eslint": "^8.38.0"
   },
   "repository": {
     "type": "git",
